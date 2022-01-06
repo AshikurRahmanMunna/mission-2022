@@ -85,3 +85,61 @@ h1 {
 .my-mission-card p {
     padding-top: 20px;
 }
+.develop-left {
+    width: 60%;
+}
+.develop-without-limits {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.develop-left img {
+    width: 100%;
+}
+.develop-right {
+    padding: 60px;
+}
+.develop-right h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.develop-right p {
+    font-size: 18px;
+}
+.global-community {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.community-right img {
+    width: 100%;
+}
+.community-right {
+    width: 60%;
+}
+.community-left {
+    padding: 60px 0;
+}
+.community-left h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.community-left p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    color: white;
+    height: 150px;
+}
+.footer-text {
+    padding: 47px 0;
+}
+footer h1 {
+    font-family: 'Lobster', cursive;
+}
+footer p {
+    font-size: 12px;
+}
