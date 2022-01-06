@@ -86,11 +86,16 @@ h1 {
     padding-top: 20px;
 }
 .develop-left {
-    width: 60%;
+    width: 65%;
 }
 .develop-without-limits {
     margin-top: 100px;
     margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 50px;
+    background-size: 15%;
+    padding: 0 150px;
 }
 .develop-left img {
     width: 100%;
@@ -109,12 +114,18 @@ h1 {
 .global-community {
     margin-top: 100px;
     margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: bottom right 50px;
+    padding: 0 150px;
 }
 .community-right img {
     width: 100%;
 }
 .community-right {
-    width: 60%;
+    width: 65%;
+    padding-bottom: 80px;
 }
 .community-left {
     padding: 60px 0;
@@ -126,6 +137,41 @@ h1 {
 }
 .community-left p {
     font-size: 18px;
+}
+
+.extra-content {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/extra-bg.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.extra-content h1 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+.extra-content h3 {
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.extra-content-text {
+    padding: 285px;
+}
+.extra-content-text a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+.extra-content-text a:hover {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
 }
 
 footer {
@@ -142,4 +188,7 @@ footer h1 {
 }
 footer p {
     font-size: 12px;
+}
+.red-color {
+    color: #FF5959;
 }
