@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+.flex {
+    display: flex;
+}
+.center-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.half-width {
+    width: 50%;
+}
+.orange-color {
+    color: orange;
+}
+.button {
+    color: white;
+    background-color: #FF5959;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.btn-margin {
+    margin-top: 30px;
+}
+.top-banner-heading {
+    border-left: 3px solid #FF5959;
+}
+.top-banner h1 {
+    font-size: 50px;
+    padding-left: 15px;
+}
+.top-banner p {
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 30px;
+    color: #3E3E3E;
+}
+.top-banner-img {
+    text-align: right;
+}
+.top-banner-img img {
+    width: 80%;
+}
+.top-banner-heading {
+    margin-top: 150px;
+}
